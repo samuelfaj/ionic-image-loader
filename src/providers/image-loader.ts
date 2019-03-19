@@ -3,7 +3,7 @@ import { Injectable }             from '@angular/core';
 import { File, FileEntry }        from '@ionic-native/file';
 import { Platform }               from 'ionic-angular';
 import { fromEvent }              from 'rxjs/observable/fromEvent';
-import { first }                   from 'rxjs/operators';
+//import { first }                   from 'rxjs/operators';
 import { ImageLoaderConfig }       from './image-loader-config';
 
 interface IndexItem {
@@ -68,7 +68,7 @@ export class ImageLoader {
       );
     } else {
       fromEvent(document, 'deviceready')
-        .pipe(first())
+        //.pipe(first())
         .subscribe(res => {
           if (this.nativeAvailable) {
             this.initCache();
