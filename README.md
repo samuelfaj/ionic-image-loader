@@ -1,3 +1,11 @@
+# Why did you made this fork?
+I made this fork to fix the following error:
+```
+[21:40:46]  ionic-app-script task: "build" 
+[21:40:46]  Error: ./node_modules/ionic-image-loader/dist/providers/image-loader.js Module not found: Error: Can't 
+            resolve 'rxjs/operators' in 
+```
+
 [![npm](https://img.shields.io/npm/l/ionic-image-loader.svg)](https://www.npmjs.com/package/ionic-image-loader/)
 [![npm](https://img.shields.io/npm/dt/ionic-image-loader.svg)](https://www.npmjs.com/package/ionic-image-loader)
 [![npm](https://img.shields.io/npm/dm/ionic-image-loader.svg)](https://www.npmjs.com/package/ionic-image-loader)
